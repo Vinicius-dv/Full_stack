@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seus relatórios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="h1_relatorio">Crie Relatórios para sua empresa de forma rapida!</h1>
+    <form   class="form_relatorio" id="form_relatorio" action="">
+        <label for="nome_relatorio">Digite o nome do relatorio que vai ser gerado:</label>
+        <input type="text" name="nome_relatorio" id="nome_relatorio" placeholder="Digite o nome do relatorio que vai ser gerado" min="4">
+        <label for="opções_relatorio">Escolha uma opção</label>
+        <select name="opções_relatorio" id="opções_relatorio">
+            <option value="media">Media</option>
+            <option value="porcentagem">Porcentagem</option>
+        </select>
+
+        <button id="button_gerar">Gerar Planilha</button>
+    </form>
+</body>
+    <script src="meuscript.js"></script>
+</html>

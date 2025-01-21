@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.84);
+    color: yellow;
+}
+
+.h1_relatorio{
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 0);
+}
+
+.form_relatorio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.form_relatorio label{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.form_relatorio input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 50px;
+    width: 280px;
+}
+
+.form_relatorio select{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form_relatorio select:focus{
+    border: 2px solid red;
+}
+
+.form_relatorio button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.7s;
+}
+
+.form_relatorio button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.form_relatorio #button_vendas{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.7s;
+}
+
+.form_relatorio #button_vendas:hover{
+    background-color: orange;
+    color: white;
+}
+
+.form_relatorio div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
